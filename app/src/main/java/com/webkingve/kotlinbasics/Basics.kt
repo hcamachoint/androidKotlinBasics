@@ -25,8 +25,6 @@ fun main(){ //this is the principal function os the application by kotlin defaul
     var firstCharInStr = myStr[0]
     var lastCharInStr = myStr[myStr.length - 1]
 
-    print("Last char in str is " + lastCharInStr)
-
     //THIS IS THE TEST
     var mstr: String = "Android Masterclass"
     var mfloat: Float = 13.37F
@@ -36,4 +34,29 @@ fun main(){ //this is the principal function os the application by kotlin defaul
     var mlong: Long = 18881234567
     var mbool: Boolean = true
     val mstri: Char = 'a'
-\}
+
+    //ARITHMETIC OPERATORS(+, -, *, /, %)
+    var result = 5 + 3
+    result = result / 2
+    result += 10
+    val aa = 5.0
+    val bb = 10
+    var resultDouble: Double = (aa / bb)
+    println(resultDouble)
+
+    //COMPARATION OPERATORS(==, !=, <, >, <=, >=)
+    val isEqual = 5 == 3
+    println(isEqual)
+    println("Is greater ${5 > 3}")
+
+    //ASSIGNMENT OPERATORS(+=, -=, *=, /=, %=)
+    var myNum = 5
+    myNum += 5
+    println(myNum)
+
+    //INCREMENTE & DECREMENT OPERATORS(++, --)
+    myNum++
+    println(myNum)
+    println("Last char in str is " + lastCharInStr)
+    println("Last char in str is $lastCharInStr and the lengh of myStr is ${myStr.length}")
+}
